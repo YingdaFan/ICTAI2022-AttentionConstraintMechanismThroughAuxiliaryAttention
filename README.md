@@ -1,2 +1,2 @@
-# AttentionConstraintMechanism
+# AttentionConstraintMechanismThroughAuxiliaryAttention
 ICTAI2022 paper code
