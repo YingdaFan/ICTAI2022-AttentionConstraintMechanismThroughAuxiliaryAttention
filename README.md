@@ -8,7 +8,7 @@ code ICTAI2022 paper "Attention Constraint Mechanism Through Auxiliary Attention
 * [Fairseq](https://github.com/facebookresearch/fairseq/) version == 0.10.1
 ### Train
 Our method is based on [fairseq toolkit](https://github.com/pytorch/fairseq) for training and evaluating. 
-The bilingual datasets should be first preprocessed into binary format and save in 'data-bin' file. We list the binay format for [IWSLT'14 German to English dataset](http://workshop2014.iwslt.org/downloads/proceeding.pdf) and [WMT'14 English to German dataset](http://www.statmt.org/wmt14/translation-task.html). 
+The bilingual datasets [IWSLT'14 German to English dataset](http://workshop2014.iwslt.org/downloads/proceeding.pdf) and [WMT'14 English to German dataset](http://www.statmt.org/wmt14/translation-task.html) should be first preprocessed into binary format and save in 'data-bin' file. 
 
 'auxiliary-positive' and 'auxiliary-negative' are corresponding to our proposed two optimization methods for the axuliary attenton, which named as 'the positive', and 'the negative' as mentioned in section II-B and II-C.
 ```
